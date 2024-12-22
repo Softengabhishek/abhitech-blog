@@ -33,7 +33,7 @@ import {
             <div className="p-1">
               <Card>
                   <CardContent className="flex  items-center justify-center">
-                  <img src="/Shadcn-thumbnail.jpg" alt="Shadcn UI"/>
+                  {/* <img src="/Shadcn-thumbnail.jpg" alt="Shadcn UI"/> */}
                   {/* <span>Hello {index}</span> */}
                 </CardContent>
               </Card>
