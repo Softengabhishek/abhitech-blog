@@ -40,7 +40,7 @@ export default async function Page({ params }) {
         }),
       ],
     })
-    // .use(rehypeFormat) // Format the HTML output
+    .use(rehypeFormat) // Format the HTML output
     .use(rehypeStringify); // Convert the HTML AST back to a string
 
   // Process the markdown content and generate HTML

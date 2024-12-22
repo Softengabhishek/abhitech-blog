@@ -11,7 +11,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 
-import { SignedIn,SignUp,SignUpButton, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
+import { SignedIn,SignUpButton, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
 
 
 const Navbar = () => {
