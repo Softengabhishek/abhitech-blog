@@ -13,7 +13,13 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeSlug from "rehype-slug";
 import remarkGfm from "remark-gfm";
 
-export default async function Page({ params }:{params:string}) {
+interface PageProps {
+  params: {
+    slug: string; // Define `slug` as a string
+  };
+}
+
+export default async function Page({ params }:PageProps) {
   const filepath = `src/content/${params.slug}.md`;
 
   if (!fs.existsSync(filepath)) {
